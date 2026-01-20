@@ -1,0 +1,10 @@
+Write a Python program to find Fibonacci Sequence?
+
+def fibonacci(n):
+    lst = [0,1]
+    for i in range(2,n):
+        next_term = lst[-1]+lst[-2]
+        lst.append(next_term)
+    return lst
+    
+print(fibonacci(10))
