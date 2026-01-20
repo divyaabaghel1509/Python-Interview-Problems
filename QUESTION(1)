@@ -1,0 +1,7 @@
+Write a Python program to Reverse a String?
+
+def reverse(string):
+    a = string[::-1]
+    return a
+    
+print(reverse("Divya"))
