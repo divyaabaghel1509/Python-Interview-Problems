@@ -1,0 +1,11 @@
+ Write a Python program to find Anagram Check?
+
+def anagram(string1,string2):
+    a = string1.lower().replace(" ","")
+    b = string2.lower().replace(" ","")
+    if sorted(a) == sorted(b):
+        print(f"{a} and {b} are anagram")
+    else:
+        print(f"{a} and {b} are not anagram")
+    
+print(anagram("anagram","nagaram"))
