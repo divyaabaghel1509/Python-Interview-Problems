@@ -1,0 +1,15 @@
+Write a Python program to find Maximum Element in a List?
+
+def maximum(lst):
+    lst.sort(reverse = True)
+    return lst[0]
+
+print(maximum([1,5,61,8]))
+
+or
+
+def maximum(lst):
+  
+    return max(lst)
+
+print(maximum([1,5,1,8]))
