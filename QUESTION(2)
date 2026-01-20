@@ -1,0 +1,10 @@
+Write a Python program to Check Palindrome?
+
+def Palindrome(string):
+    a = string[::-1]
+    if a == string:
+        print(f"{string} is a palindrome")
+    else:
+        print(f"{string} is not a palindrome")
+        
+print(Palindrome("madam"))
