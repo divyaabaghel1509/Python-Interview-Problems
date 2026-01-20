@@ -2,9 +2,10 @@ Write a Python program to Check Palindrome?
 
 def Palindrome(string):
     a = string[::-1]
-    if a == string:
+    if a.lower() == string.lower():
         print(f"{string} is a palindrome")
     else:
         print(f"{string} is not a palindrome")
         
-print(Palindrome("madam"))
+print(Palindrome("Madam"))
+        
